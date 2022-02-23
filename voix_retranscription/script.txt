@@ -1,0 +1,54 @@
+[]
+
+{'alternative': [{'transcript': 'bye bye', 'confidence': 0.93855584}, {'transcript': 'bye-bye'}, {'transcript': 'salaire bye bye'}, {'transcript': 'itinéraire bye bye'}, {'transcript': "bye bye c'est grave"}], 'final': True}
+
+{'alternative': [{'transcript': "pourquoi c'est parce qu'il y a trop de stress en cours", 'confidence': 0.90311927}, {'transcript': "pourquoi c'est long parce qu'il y a trop de stress en cours"}, {'transcript': "pourquoi c'est parce qu'il y a trop de trader en cours"}, {'transcript': "pourquoi c'est long parce qu'il y a trop de trader en cours"}, {'transcript': "pourquoi c'est parce qu'il y a trop de trade en cours"}], 'final': True}
+
+{'alternative': [{'transcript': "ouais on peut pas l'éviter sans rire", 'confidence': 0.9150418}, {'transcript': "horaires on peut pas l'éviter sans rire"}, {'transcript': "on peut pas l'éviter sans rire"}, {'transcript': "horaire on peut pas l'éviter sans rire"}, {'transcript': "ouais on peut pas l'éviter sans rien"}], 'final': True}
+
+[]
+
+[]
+
+{'alternative': [{'transcript': 'avant les Fred avant les Fred au tout début ce match de foot sur le toit', 'confidence': 0.89152986}, {'transcript': "avant les Fred avant les Fred au tout début ce match de foot sur le toit c'est grave"}, {'transcript': 'avant le stand avant les Fred au tout début ce match de foot sur le toit'}, {'transcript': "avant le stand avant les Fred au tout début ce match de foot sur le toit c'est grave"}, {'transcript': "avant les Fred avant les Fred au tout début ce match de foot sur le toit c'est grave c'est pour ça"}], 'final': True}
+
+[]
+
+[]
+
+{'alternative': [{'transcript': "que j'ai bougé vite y a longtemps tu as au moins", 'confidence': 0.82309514}, {'transcript': "que j'ai bougé vu tu y a longtemps tu as au moins"}, {'transcript': "que j'ai les boules j'ai vu tu y a longtemps tu as au moins"}, {'transcript': 'que tu as longtemps tu as au moins'}, {'transcript': "que j'ai le bout j'ai vu tu y a longtemps tu as au moins"}], 'final': True}
+
+[]
+
+[]
+
+[]
+
+[]
+
+{'alternative': [{'transcript': 'comment ça', 'confidence': 0.93855584}, {'transcript': 'comment ça va'}, {'transcript': 'commence à'}, {'transcript': 'Comment ça'}, {'transcript': 'commença'}], 'final': True}
+
+[]
+
+[]
+
+[]
+
+[]
+
+[]
+
+[]
+
+[]
+
+[]
+
+{'alternative': [{'transcript': "tout à l'heure c'était pas compris", 'confidence': 0.6153307}, {'transcript': 'Intel CPU pas compris'}, {'transcript': "j'ai pas compris"}, {'transcript': "quelle heure c'est pas compris"}, {'transcript': "quelle heure c'était pas compris"}], 'final': True}
+
+{'alternative': [{'transcript': 'ss200', 'confidence': 0.83184975}, {'transcript': 'princesse des 00'}, {'transcript': 'princesse d00'}, {'transcript': 'princesse d030'}, {'transcript': 'princesse des 0 0'}], 'final': True}
+
+[]
+
+[]
+

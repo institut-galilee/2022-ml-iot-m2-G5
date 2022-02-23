@@ -29,8 +29,12 @@ class Main:
                    camera.stop_thread.set()
                    voice.stop_thread.set()
                    
-                   print("Fin des processus1")
-                   exit(1)
+                   serv.join()
+              
+                   camera.join()
+             
+                   voice.join()
+                   break
                if camera.stop_thread.isSet():
                    serv.stop_thread.set()
                    voice.stop_thread.set()
@@ -39,8 +43,8 @@ class Main:
                    camera.join()
              
                    voice.join()
-                   print("Fin des processus2")
-                   exit(1)
+                   
+                   break
                if voice.stop_thread.isSet():
                    camera.stop_thread.set()
                    serv.stop_thread.set()
@@ -50,8 +54,8 @@ class Main:
              
                    voice.join()
                    
-                   print("Fin des processus3")
-                   exit(1)
+                   
+                   break
                            
                
               
@@ -70,7 +74,7 @@ class Main:
         NORM_FONT = ("Helvetica", 10)
         SMALL_FONT = ("Helvetica", 8)
 
-        msg = "1) Personne n'est autorisé à s'approcher de votre écran d'ordinateur pour quelque raison que ce soit \n\n2) Vous ne devez quitter la zone d'examen sous aucun pretexte \n\n3) Vous ne devez pas parler \n\n4) Les appareils mobiles doivent rester hors de porter" 
+        msg = "1) Personne n'est autorisé à s'approcher de votre écran d'ordinateur pour quelque raison que ce soit \n\n2) Vous ne devez quitter la zone d'examen sous aucun pretexte \n\n3) Vous ne devez pas parler \n\n4) Les appareils mobiles doivent rester hors de porter\n\n5) Vérifier que votre bureau est vide\n\n Bonne chance !" 
         popup = Tk()
         popup.wm_title("Consignes")
         label = Label(popup, text=msg, font=NORM_FONT)
